@@ -1,0 +1,39 @@
+/* CSS for the static Footer */
+
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {	margin: 0;	padding: 0;	border: 0;	font-size: 100%;	font: inherit;	vertical-align: baseline;}/* HTML5 display-role reset for older browsers */article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {	display: block;}body {	line-height: 1;}ol, ul {	list-style: none;}blockquote, q {	quotes: none;}blockquote:before, blockquote:after,q:before, q:after {	content: '';	content: none;}table {	border-collapse: collapse;	border-spacing: 0;} 
+
+.clearfix:after {content: ".";display: block;clear: both;visibility: hidden;line-height: 0;height: 0;}
+.clearfix {display: inline-block;}
+ html[xmlns] .clearfix {display: block;}
+* html .clearfix {height: 1%;}
+
+body {
+		font-size: 16px;
+		font-family:semisun, arial, helvetica, sans-serif;
+		color:#1c1c1c;
+	}
+
+.l-float-left {float:left;}
+.l-float-right {float:right;}
+.l-padding-top-quarter { padding-top: 0.25em; }
+.l-padding-right { padding-right: 1em; }
+.t-uppercase-small {text-transform: uppercase;}
+.t-border-top-lightstGry { border-top: 1px solid #ededed; }
+
+/* Footer treatment */
+footer {width: 100%;max-width: 1024px;margin: 1rem auto;text-align: center;}
+#utilities-legal li {display: inline-block;float: none;margin: 0 0.675rem 0;padding:0;}
+#t-legal-footer {padding:1.25em 0 0;}
+#t-legal-footer a:link {text-decoration: none;}
+#t-legal-footer a:hover {text-decoration: underline;}
+#t-legal-footer a,#t-legal-footer a:link,#t-legal-footer a:visited,#t-legal-footer a:hover {font-size: 0.75em;color: #494949;}
+.t-copyright p {font-size: 0.625em;line-height: 1em;margin: 0.675rem 0 0 0.675rem;color: #777;}
+
+/* Header treatment */
+header {width:100%;}
+.t-header {height: 4.0625rem;background-color: #919191;background-image: -webkit-linear-gradient(#777,#494949);background-image: -moz-linear-gradient(#777,#494949);background-image: -o-linear-gradient(#777,#494949);background-image: linear-gradient(#777,#494949);color:#fff;}
+.t-header a:link, .t-header a:visited, .t-header a:active,.t-header a:hover {color:#fff;text-decoration: none;}
+.t-header a:hover {text-decoration: underline;}
+.m-logo {padding: 1.05rem 0 0 1rem;}
+.l-main-logo img{width: 130px;}
+
