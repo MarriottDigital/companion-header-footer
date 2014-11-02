@@ -1,4 +1,4 @@
-partner-footer
+companion-header-footer
 ==============
 
-Web page footer to be used for Marriott partner sites 
+Web page header and footer to be used for Marriott companion sites 
